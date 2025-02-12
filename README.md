@@ -9,7 +9,7 @@ include "root" {
 }
 
 terraform {
-  source = "../../../modules//s3-static"
+  source = "../../../modules//spa-app-aws"
 }
 
 dependency "acm" {
