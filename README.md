@@ -19,17 +19,17 @@ dependency "acm" {
 inputs = {
   buckets = {
     app = {
-      bucket_name            = "spa-app1-aws.placebo.io"
+      bucket_name            = "spa-app1-aws.example.com"
       index_document        = "index.html"
       error_document       = "error.html"
-      domain_names         = ["aspa-app1-aws.placebo.ioy"]
+      domain_names         = ["spa-app1-aws.example.com"]
       cloudfront_price_class = "PriceClass_100"
     }
     admin = {
-      bucket_name            = "spa-app2-aws.placebo.io"
+      bucket_name            = "spa-app2-aws.example.com"
       index_document        = "index.html"
       error_document       = "error.html"
-      domain_names         = ["spa-app2-aws.placebo.io"]
+      domain_names         = ["spa-app2-aws.example.com"]
       cloudfront_price_class = "PriceClass_100"
     }
   }
